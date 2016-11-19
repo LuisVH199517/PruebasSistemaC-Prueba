@@ -1,0 +1,7 @@
+Create database Alumnos
+go
+use Alumnos
+go
+create table Alumno(AlumnoId int not null identity,Nombres nvarchar(20) not null,ApellidoPaterno nvarchar(15) not null,ApellidoMaterno nvarchar(15) not null, FechaNacimiento datetime, Edad int not null,DNI int not null,NombreApoderado varchar(30),Telefono int not null, Celular int not null)
+
+alter table Alumno add constraint PK_AlumnoId primary key(AlumnoId)

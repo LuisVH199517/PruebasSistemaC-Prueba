@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        function validarLogin() {
+            var c = document.forms["formLogin"]["idtxt"].value;
+            var d = document.forms["formLogin"]["idpsw"].value;
+            var username1 = "usuario";
+            var password1 = "usuario";
+            var username2 = "admin";
+            var password2 = "admin";
+
+            if (c == "" || c == null)
+            {
+                alert("Por favor, ingrese su usuario")
+                return false;
+            }
+            if (d == "" || d == null) {
+                alert("Por favor, ingrese su contraseña")
+                return false;
+            }
+
+            if ((c != username1) || (d != password1)) {
+                if ((c != username2) || (d != password2)) {
+
+                    alert("Nombre de usuario o clave incorrectos")
+                    return false;
+
+                }
+            }
+           
+            
+
+        }
+    </script>
+
+    <h2>Login Form</h2>
+
+    <form  name="formLogin" method="post" onsubmit="return validarLogin()" action="/Home/LstAlumnos" >
+        <div class="imgcontainer">
+            <img src="~/Content/img/upc.png" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" id="idtxt"name="uname" >
+
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password"id="idpsw" name="psw" >
+
+            <button type="submit">Login</button>
+            <input type="checkbox" checked="checked"> Remember me
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
+
+</body>
+</html>

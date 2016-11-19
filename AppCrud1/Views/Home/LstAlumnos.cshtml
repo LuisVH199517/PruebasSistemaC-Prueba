@@ -1,0 +1,56 @@
+﻿@model AppCrud1.ViewModel.LstAlumnosViewModel
+
+@{
+    ViewBag.Title = "Alumno";
+    ViewBag.SubTitle = "Lista";
+    ViewBag.Icon = "fa fa-globe";
+    ViewBag.Section = "LstAlumnos";
+
+
+}
+
+<form role="form" method="post" action="@Url.Action("LstAlumnos")">
+    <div class="form-group">
+        <label>Filtro</label>
+        @Html.TextBoxFor(x => x.Filtro, new { @class = "form-control" })
+    </div>
+
+    <button type="submit" class="btn btn-default">
+        <i class="fa fa-search"></i> Buscar
+    </button>
+</form>
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Opciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        editar alumnos
+        @foreach (var item in Model.LstAlumnos)
+        {
+            <tr>
+                <td>@item.Nombres</td>
+                <td>
+                    <a class="btn btn-default"
+                       href="@Url.Action("AddEditAlumno",
+                              new
+
+                                { AlumnoId = item.AlumnoId })">
+
+                        <i class="fa fa-edit"></i> Editar
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+agregar alumnos
+<a class="btn btn-primary"
+   href="@Url.Action("AddEditAlumno")">
+    <i class="fa fa-plus"></i> Agregar
+</a>
+
+

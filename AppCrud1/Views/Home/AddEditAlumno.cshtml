@@ -1,0 +1,105 @@
+﻿@model AppCrud1.ViewModel.AddEditAlumnoViewModel
+@{
+    ViewBag.Title = "Alumno";
+    ViewBag.SubTitle = Model.AlumnoId.HasValue ? "Editar" : "Agregar";
+    ViewBag.Icon = "fa fa-globe";
+    ViewBag.Section = "LstAlumnos";
+}
+
+<script>
+    function funcionValidar()
+    {
+        var a = document.forms["form1"]["t1"].value;
+        if (a == "" || a == null)
+        {
+
+            alert("Por favor, ingrese sus nombres");
+            return;
+        }
+       
+        var b = document.forms["form1"]["t2"].value;
+        if (b == "" || b == null) {
+            alert("Por favor, ingrese su Apellido Paterno");
+            return;
+        }
+       
+        var c = document.forms["form1"]["t3"].value;
+        if (c == "" || c == null) {
+            alert("Por favor, ingrese su Apellido Materno");
+            return;
+        }
+      
+        var d = document.forms["form1"]["t4"].value;
+        if (d == "" || d == null) {
+            alert("Por favor, ingrese su Edad");
+            return;
+        }
+       
+        var e = document.forms["form1"]["t5"].value;
+        if (e == "" || e == null) {
+            alert("Por favor, ingrese su DNI");
+            return;
+        }
+      
+        var f = document.forms["form1"]["t6"].value;
+        if (f == "" || f == null) {
+            alert("Por favor, ingrese el nombre del apoderado");
+            return;
+        }
+        
+        var g = document.forms["form1"]["t7"].value;
+        if (g == "" || g == null) {
+            alert("Por favor, ingrese su telefono");
+            return;
+        }
+      
+        var h = document.forms["form1"]["t8"].value;
+        if (h == "" || h == null) {
+            alert("Por favor, ingrese su celular");
+            return;
+        }
+      
+    }
+
+</script>
+
+<form role="form" method="post" action="@Url.Action("AddEditAlumno")" onsubmit="funcionValidar()" name="form1">
+    @Html.HiddenFor(x => x.AlumnoId)
+
+    <div class="form-group">
+        @*<label id="lbltext1">Nombre</label>
+       <input type="text" name="nombre1" >*@
+        @Html.Label("Nombres: ")
+        @Html.TextBoxFor(x => x.Nombres, new { @class = "form-control" ,id="t1"}) 
+       
+        @Html.Label("Apellido Paterno: ")
+        @Html.TextBoxFor(x => x.ApellidoPaterno, new { @class = "form-control", id = "t2" })
+        @Html.Label("Apellido Materno: ")
+        @Html.TextBoxFor(x => x.ApellidoMaterno, new { @class = "form-control", id = "t3" })
+        @*@Html.Label("Fecha de nacimiento: ")*@
+       
+        @*@Html.TextBoxFor(x => x.FechaNacimiento, new { @class = "form-control" })*@
+        @Html.Label("Edad: ")
+        @Html.TextBoxFor(x => x.Edad, new { @class = "form-control", id = "t4" })
+        @Html.Label("DNI: ")
+        @Html.TextBoxFor(x => x.DNI, new { @class = "form-control", id = "t5" })
+        @Html.Label("Nombre del apoderado: ")
+        @Html.TextBoxFor(x => x.NombreApoderado, new { @class = "form-control", id = "t6" })
+        @Html.Label("Telefono: ")
+        @Html.TextBoxFor(x => x.Telefono, new { @class = "form-control", id = "t7" })
+        @Html.Label("Celular: ")
+        @Html.TextBoxFor(x => x.Celular, new { @class = "form-control", id = "t8" })
+        
+            
+        
+    </div>
+
+    <button type="submit" class="btn btn-primary" >
+        <i class="fa fa-save"></i> Guardar
+    </button>
+    <a href="@Url.Action("LstAlumnos")" class="btn btn-default">
+        <i class="fa fa-arrow-circle-o-left"> Cancelar</i>
+    </a>
+</form>
+
+@*se van los controles de acción de usuario HTML *@
