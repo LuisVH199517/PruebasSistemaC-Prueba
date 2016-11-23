@@ -3,7 +3,7 @@
 <AnalysisOutput>
   <Files>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\App_Start\BundleConfig.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\App_Start\BundleConfig.cs</Path>
       <Metrics>
         <Lines>32</Lines>
         <Classes>1</Classes>
@@ -58,7 +58,7 @@
       </Issues>
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\App_Start\FilterConfig.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\App_Start\FilterConfig.cs</Path>
       <Metrics>
         <Lines>14</Lines>
         <Classes>1</Classes>
@@ -98,7 +98,7 @@
       </Issues>
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\App_Start\IdentityConfig.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\App_Start\IdentityConfig.cs</Path>
       <Metrics>
         <Lines>110</Lines>
         <Classes>4</Classes>
@@ -220,7 +220,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\App_Start\RouteConfig.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\App_Start\RouteConfig.cs</Path>
       <Metrics>
         <Lines>24</Lines>
         <Classes>1</Classes>
@@ -269,7 +269,7 @@
       </Issues>
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\App_Start\Startup.Auth.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\App_Start\Startup.Auth.cs</Path>
       <Metrics>
         <Lines>68</Lines>
         <Classes>1</Classes>
@@ -356,7 +356,7 @@
       </Issues>
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\Controllers\AccountController.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\Controllers\AccountController.cs</Path>
       <Metrics>
         <Lines>485</Lines>
         <Classes>2</Classes>
@@ -811,7 +811,7 @@
       </Issues>
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\Controllers\HomeController.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\Controllers\HomeController.cs</Path>
       <Metrics>
         <Lines>120</Lines>
         <Classes>1</Classes>
@@ -952,7 +952,7 @@
       </Issues>
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\Controllers\ManageController.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\Controllers\ManageController.cs</Path>
       <Metrics>
         <Lines>389</Lines>
         <Classes>1</Classes>
@@ -1335,7 +1335,7 @@
       </Issues>
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\Global.asax.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\Global.asax.cs</Path>
       <Metrics>
         <Lines>22</Lines>
         <Classes>1</Classes>
@@ -1377,7 +1377,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\Models\AccountViewModels.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\Models\AccountViewModels.cs</Path>
       <Metrics>
         <Lines>113</Lines>
         <Classes>9</Classes>
@@ -1492,7 +1492,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\Models\Alumno.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\Models\Alumno.cs</Path>
       <Metrics>
         <Lines>29</Lines>
         <Classes>1</Classes>
@@ -1532,7 +1532,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\Models\IdentityModels.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\Models\IdentityModels.cs</Path>
       <Metrics>
         <Lines>33</Lines>
         <Classes>2</Classes>
@@ -1585,7 +1585,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\Models\ManageViewModels.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\Models\ManageViewModels.cs</Path>
       <Metrics>
         <Lines>86</Lines>
         <Classes>8</Classes>
@@ -1681,7 +1681,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\Models\Model1.Context.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\Models\Model1.Context.cs</Path>
       <Metrics>
         <Lines>31</Lines>
         <Classes>1</Classes>
@@ -1721,7 +1721,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\Models\Model1.Designer.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\Models\Model1.Designer.cs</Path>
       <Metrics>
         <Lines>10</Lines>
         <Classes>0</Classes>
@@ -1742,7 +1742,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\Models\Model1.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\Models\Model1.cs</Path>
       <Metrics>
         <Lines>10</Lines>
         <Classes>0</Classes>
@@ -1763,7 +1763,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\Properties\AssemblyInfo.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\Properties\AssemblyInfo.cs</Path>
       <Metrics>
         <Lines>36</Lines>
         <Classes>0</Classes>
@@ -1815,7 +1815,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\Startup.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\Startup.cs</Path>
       <Metrics>
         <Lines>15</Lines>
         <Classes>1</Classes>
@@ -1850,7 +1850,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\ViewModel\AddEditAlumnoViewModel.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\ViewModel\AddEditAlumnoViewModel.cs</Path>
       <Metrics>
         <Lines>62</Lines>
         <Classes>1</Classes>
@@ -1925,19 +1925,19 @@
           <Message>Remove this commented out code.</Message>
         </Issue>
         <Issue>
-          <Id>S100</Id>
-          <Line>18</Line>
-          <Message>Rename property "DNI" to match camel case naming rules, consider using "Dni".</Message>
-        </Issue>
-        <Issue>
           <Id>S125</Id>
           <Line>57</Line>
           <Message>Remove this commented out code.</Message>
         </Issue>
+        <Issue>
+          <Id>S100</Id>
+          <Line>18</Line>
+          <Message>Rename property "DNI" to match camel case naming rules, consider using "Dni".</Message>
+        </Issue>
       </Issues>
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\ViewModel\DashboardViewModel.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\ViewModel\DashboardViewModel.cs</Path>
       <Metrics>
         <Lines>25</Lines>
         <Classes>1</Classes>
@@ -1980,7 +1980,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\ViewModel\DeleteAlumnoViewModel.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\ViewModel\DeleteAlumnoViewModel.cs</Path>
       <Metrics>
         <Lines>39</Lines>
         <Classes>1</Classes>
@@ -2032,7 +2032,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\ViewModel\LstAlumnosViewModel.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\ViewModel\LstAlumnosViewModel.cs</Path>
       <Metrics>
         <Lines>38</Lines>
         <Classes>1</Classes>
@@ -2085,7 +2085,7 @@
       </Issues>
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</Path>
       <Metrics>
         <Lines>1</Lines>
         <Classes>0</Classes>
@@ -2106,7 +2106,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</Path>
       <Metrics>
         <Lines>1</Lines>
         <Classes>0</Classes>
@@ -2127,7 +2127,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\AppCrud1\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\AppCrud1\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</Path>
       <Metrics>
         <Lines>1</Lines>
         <Classes>0</Classes>
@@ -2148,7 +2148,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\ClassLibrary1\Properties\AssemblyInfo.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\ClassLibrary1\Properties\AssemblyInfo.cs</Path>
       <Metrics>
         <Lines>37</Lines>
         <Classes>0</Classes>
@@ -2201,7 +2201,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\ClassLibrary1\TestClass.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\ClassLibrary1\TestClass.cs</Path>
       <Metrics>
         <Lines>17</Lines>
         <Classes>1</Classes>
@@ -2237,7 +2237,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\ClassLibrary1\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\ClassLibrary1\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</Path>
       <Metrics>
         <Lines>1</Lines>
         <Classes>0</Classes>
@@ -2258,7 +2258,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\ClassLibrary1\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\ClassLibrary1\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</Path>
       <Metrics>
         <Lines>1</Lines>
         <Classes>0</Classes>
@@ -2279,7 +2279,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\ClassLibrary1\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\ClassLibrary1\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</Path>
       <Metrics>
         <Lines>1</Lines>
         <Classes>0</Classes>
@@ -2300,7 +2300,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\UnitTestProject1\AddEditAlumnoViewModelTest.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\UnitTestProject1\AddEditAlumnoViewModelTest.cs</Path>
       <Metrics>
         <Lines>38</Lines>
         <Classes>1</Classes>
@@ -2350,7 +2350,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\UnitTestProject1\LstAlumnosViewModelTest.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\UnitTestProject1\LstAlumnosViewModelTest.cs</Path>
       <Metrics>
         <Lines>71</Lines>
         <Classes>1</Classes>
@@ -2439,7 +2439,7 @@
       </Issues>
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\UnitTestProject1\Properties\AssemblyInfo.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\UnitTestProject1\Properties\AssemblyInfo.cs</Path>
       <Metrics>
         <Lines>37</Lines>
         <Classes>0</Classes>
@@ -2492,7 +2492,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\UnitTestProject1\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\UnitTestProject1\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</Path>
       <Metrics>
         <Lines>1</Lines>
         <Classes>0</Classes>
@@ -2513,7 +2513,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\UnitTestProject1\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\UnitTestProject1\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</Path>
       <Metrics>
         <Lines>1</Lines>
         <Classes>0</Classes>
@@ -2534,7 +2534,7 @@
       <Issues />
     </File>
     <File>
-      <Path>C:\CivilWar\ProyectoC#\UnitTestProject1\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</Path>
+      <Path>C:\RepoLusho\PruebasSistemaC-Prueba-master\UnitTestProject1\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</Path>
       <Metrics>
         <Lines>1</Lines>
         <Classes>0</Classes>
