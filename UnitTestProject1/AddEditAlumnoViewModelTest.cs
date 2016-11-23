@@ -1,16 +1,16 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using AppCrud1.Models;
 using AppCrud1.ViewModel;
 
 namespace UnitTestProject1
 {
-    [TestClass]
+    [TestFixture]
     public class AddEditAlumnoViewModelTest
     {
 
 
-        [TestMethod]
+        [Test]
         public void Flujo()
         {
             Alumno objAlumno = new Alumno();

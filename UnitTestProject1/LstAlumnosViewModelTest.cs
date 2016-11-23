@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 using System.Collections.Generic;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using AppCrud1.Models;
 using AppCrud1.ViewModel;
 
@@ -10,7 +10,7 @@ namespace UnitTestProject2
     /// <summary>
     /// Summary description for UnitTest2
     /// </summary>
-    [TestClass]
+    [TestFixture]
     public class LstAlumnosViewModelTest
     {
         public LstAlumnosViewModelTest()
@@ -58,7 +58,7 @@ namespace UnitTestProject2
         //
         #endregion
 
-        [TestMethod]
+        [Test]
      public void Flujo()
         {
             LstAlumnosViewModel objLstAlumnosViewModel = new LstAlumnosViewModel();
